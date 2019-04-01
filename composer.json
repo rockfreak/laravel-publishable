@@ -1,5 +1,5 @@
 {
-    "name": "pawelmysior/laravel-publishable",
+    "name": "rockfreak/laravel-publishable",
     "description": "Toggle the published state of your Eloquent models easily",
     "keywords": ["laravel", "eloquent", "trait"],
     "license": "MIT",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PawelMysior\\Publishable\\": "src/"
+            "RockFreak\\Publishable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PawelMysior\\Publishable\\Tests\\": "tests/"
+            "RockFreak\\Publishable\\Tests\\": "tests/"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace PawelMysior\Publishable;
+namespace RockFreak\Publishable;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;

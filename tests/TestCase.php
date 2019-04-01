@@ -1,6 +1,6 @@
 <?php
 
-namespace PawelMysior\Publishable\Tests;
+namespace RockFreak\Publishable\Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
 

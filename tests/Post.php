@@ -1,9 +1,9 @@
 <?php
 
-namespace PawelMysior\Publishable\Tests;
+namespace RockFreak\Publishable\Tests;
 
 use Illuminate\Database\Eloquent\Model;
-use PawelMysior\Publishable\Publishable;
+use RockFreak\Publishable\Publishable;
 
 class Post extends Model
 {
