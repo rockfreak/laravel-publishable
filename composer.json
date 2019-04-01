@@ -7,17 +7,21 @@
         {
             "name": "Pawel Mysior",
             "email": "pawelmysior@gmail.com"
+        },
+        {
+            "name": "Oliver Camp",
+            "email": "ollie.camp@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.6.4",
-        "illuminate/database": "^5.4",
+        "php": ">=7.2",
+        "illuminate/database": "^5.8",
         "nesbot/carbon": "^2.16"
     },
     "require-dev": {
-        "orchestra/database": "~3.4",
-        "orchestra/testbench": "~3.4",
-        "phpunit/phpunit": "~5.7"
+        "orchestra/database": "~3.8",
+        "orchestra/testbench": "~3.8",
+        "phpunit/phpunit": "~7.5"
     },
     "autoload": {
         "psr-4": {
