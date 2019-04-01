@@ -7,7 +7,7 @@ Toggle the published state of your Eloquent models easily.
 You can install the package via composer:
 
 ```bash
-composer require pawelmysior/laravel-publishable
+composer require rockfreak/laravel-publishable
 ```
 
 ## Preparation
@@ -28,7 +28,7 @@ Now use the trait on the model
 namespace App;
   
 use Illuminate\Database\Eloquent\Model;
-use PawelMysior\Publishable\Publishable;
+use RockFreak\Publishable\Publishable;
  
 class Post extends Model
 {

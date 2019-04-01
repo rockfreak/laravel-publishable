@@ -1,6 +1,8 @@
 The MIT License (MIT)
 
 Copyright (c) 2017 Pawel Mysior <pawelmysior@gmail.com>
+Copyright (c) 2019 Ollie Camp <ollie.camp@gmail.com>
+
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
