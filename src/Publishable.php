@@ -54,9 +54,9 @@ trait Publishable
      */
     public function publish()
     {
-        return $this->update([
-            'published_at' => Carbon::now()->toDateTimeString(),
-        ]);
+        $this->published_at = Carbon::now();
+
+        return $this->save();
     }
 
     /**
@@ -64,9 +64,9 @@ trait Publishable
      */
     public function unpublish()
     {
-        return $this->update([
-            'published_at' => null,
-        ]);
+        $this->published_at = null;
+
+        return $this->save();
     }
 
     /**
@@ -78,7 +78,7 @@ trait Publishable
         if (is_null($value)) {
             return $value;
         }
-        
+
         return $this->asDateTime($value);
     }
 }
